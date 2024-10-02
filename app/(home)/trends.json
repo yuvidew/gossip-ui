@@ -1,0 +1,27 @@
+[
+    {
+        "category" : "design",
+        "title" : "ThreadsDesktop",
+        "threads" : "123.9k threads"
+    },
+    {
+        "category" : "movies and series",
+        "title" : "Spider-Man: Across the Spider-Verse",
+        "threads" : "93.4k threads"
+    },
+    {
+        "category" : "tech",
+        "title" : "iPhone 15",
+        "threads" : "85.2k threads"
+    },
+    {
+        "category" : "games",
+        "title" : "Riot Games",
+        "threads" : "71.9k threads"
+    },
+    {
+        "category" : "Design",
+        "title" : "#Minimalism",
+        "threads" : "71.9k threads"
+    }
+]

@@ -3,32 +3,40 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Image from 'next/image';
+import { NavigationLink } from '@/app/(home)/_components/NavigationLink';
+import { SettingComp } from './SettingComp';
 
 export const NavBar = () => {
     return (
-        <Box sx={{ flexGrow: 1 }}>
-            <AppBar 
-                position="static" 
+        <Box 
+            sx={{
+                flexGrow: 1,
+                backgroundColor: "#fff",
+                color: "black",
+            }}
+        >
+            <AppBar
+                position="fixed"
                 sx={{
-                    backgroundColor : "#fff",
-                    color : "black",
+                    backgroundColor: "#fff",
+                    color: "black",
                 }}
             >
-                <Toolbar>
-                    <Box sx={{width : "25%" , paddingLeft : "5px"}}>
-                    <Image
-                        src="./logo.svg"
-                        alt="logo"
-                        width={80}
-                        height={80}
-                        unoptimized
-                    />
+                <Toolbar sx={{ width : '85%' , margin : "auto" }} >
+                    <Box sx={{ width: "25%"}}>
+                        <Image
+                            src="./logo.svg"
+                            alt="logo"
+                            width={65}
+                            height={65} 
+                            unoptimized
+                        />
                     </Box>
-                    <Box  sx={{ width: "70%"}}>
-                        News
+                    <Box sx={{ width: "60%" }}>
+                        <NavigationLink/>
                     </Box>
-                    <Box sx={{width : "25%"}}>
-                        News
+                    <Box sx={{ width: "25%" }}>
+                        <SettingComp/>
                     </Box>
                 </Toolbar>
             </AppBar>

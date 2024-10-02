@@ -4,7 +4,7 @@ import Card from "@mui/material/Card";
 import Stack from "@mui/material/Stack";
 import Image from "next/image";
 
-export default function RootLayout({
+export default function AuthLayout({
     children,
 }: Readonly<{
     children: ReactNode;

@@ -1,0 +1,80 @@
+[
+    {
+        "id" : 1,
+        "author" : "aura",
+        "authorImg" : "https://s3-alpha-sig.figma.com/img/1667/c55f/126c6fc5e276b01f293ed4a36262d230?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TJrXYONQFjwAwlqm7JS-Bm9hgAEEBj2azbENV56BkYe4Clac8rEh15vxnfKwYql0PJfaH3Up-s-7UG-eax2vlnU1Jmo7FmXMZDzXm2tS79NtwYbA29cwAE4POD6ZyYcTgUlmh7aEZnWr3auRwpO~rJ7H1NQuP5bhx13r-Dw7xpQs2SmG9UiWOyP2fCF2hzPCS0cyVEY7c8pgZeO~Rl2gevE~-ESKWjQGe82eJCsGH9y78eenra3oUo94ac426UiRspsu0B4oqOv6zSEzYQXrnfCp-5hL6y67P7yelnrZLc~~QJqHrhggWwZUDuKvg-kERvPwJ5eZrLSFPKUpfsIxHw__",
+        "content" : "I’ve been exploring ways of setting up variables in Figma if you have two different sets of global colours for light and dark themes with multiple brands. If you want to learn more about it, DM me, please",
+        "reposts" : 7,
+        "comments" : 59,
+        "img" : [
+            "https://s3-alpha-sig.figma.com/img/0ad8/ffb5/19484d3ec6cd92fe62c7ace868d8a843?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bnlgWK7wKapjyZbSYNxyU6vG7fnW-nRP1CSsh~yzHQFGcuhrDgci0Z3l-xJOJZQZJWFxSJmjRdJpLpISjFpVBKxtwBWk0D7YhQw1hUeBZ5eJ-22-H0m0QfrKKoQ5Tat~wDKqQg7p4W-6IC4bYQEcu2uTFhb-zfI6hMeXZU3MFLEkZUGLQHpRuXe2xP-e9mrqIXdA8SUmBvo-i6zbkPnhPF-kQQHBrUaXUkIa1NBbRQxlCOoXpbWRftjPz5Xdub6GJBeFCuiWdPj2muAd0LOBmKBVuGrHDBfVF6y7mLSnIy6FE2O9Bh-MB3rpULV-E9uZmxfEpywdPDyjpo-ZFImF0Q__",
+            "https://s3-alpha-sig.figma.com/img/15bb/48b6/d4b3d99be8ec2418a721593ca6f61a0c?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dY~p38FXOPNLp-JTBsdND511tSg1RppHGdARVigAYrcuaJCQdiOAabzQ1v9v4MQOBj-~9DQr4nlbIUP5Ipo7mYGzxuro9HsUCsarXNl6dqXDNNP5ofF6MkIEZnoVBLflFg2EjvUxigTaWrE-qsGSnpP5eoLWXr887WzMTlmbIxLWmgDwUHUlVu-VG8GZjxj4~1dUrEhY8xCTgs~oPMFzgVnaaf~7SgjRiKHqFNHVkAXDa55JQpJQIvWR9HCZrLcPCCpIxQigR1xW1RvAjYCcwnoz1mrZmc7Z5nLhFnwbk-VEeluSdMq4rSEzHkR9~1aX3zZYoCsalQSHK-nhxsD4AQ__"
+        ],
+        "comment" : [
+            {
+                "id" : 1,
+                "author" : "Deepak Yadu",
+                "authorImg" : "https://s3-alpha-sig.figma.com/img/601d/41d4/3bb6e2c374c2023c0b957fdae4aa5d04?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bYgBU7DDUunacz~hX8~N1BWko~ho-3aX~rRB7HLwBW~jqk5jCIgOonKDtfddRxlZOoPxfMVOz3Nuj6a3H9VV0FrZ7zdxCiFnhIiLJo9hy3fpWv0wVUo6DuLVopBuralg09Z7nVMJ9w5PH6~XF9fJltMbffgPAHNPNIsqCagSKpXoWkX0Ec0aW22ENHkUxgMWYfU6b-xIYqz~EgpcuRDHtakDh8PNUGPiPgyFL7hpqwHX4k4vGqcGPfV9f2aM6ZQQxiOryaqTA~1MrzzFIEZ5qDOrQGI7obub~WmxqSsPGSfmd57ST5VhCSi00XjBx2kS4OZatUy7~c1VDjxpTQcK3g__",
+                "content" : "It took so long for this desktop version of Threads to come out, but I'm really excited to start posting tips and content directly from the computer",
+                "like" : 25
+            },
+            {
+                "id" : 2,
+                "author" : "Deepak Yadu",
+                "authorImg" : "https://s3-alpha-sig.figma.com/img/d9b7/77eb/54ff9c155fc7faf62041e6d41684c1a0?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gu-SbA0GefKlayL5HAJJeLn9BvMHuYE4jQXTQQfrMP65O5ZMPj0zcPg6brXahAn0SW~ihL9uHHzAzqEPmkxYgjXfvlYHPSPfUkKp3q5zFIKl6jrcRvL9kEx0fFZAw6~KtmGiGB3xymeocv63FO1emlTJctftQs-2iTAGo2V9~ogYaGc25YtUHW7MKV55cythMbUIRJGWwhixYjj1GZD3EPBLcR5i07WUrf2~odjznt2PbEbD1z1WQ95keUHyNSXghGhiemMKjMk69v8L7Cl~-rP0s-HC83YEB6JYjA3R8wVA6EMEKa~B7bYeMXPi4fq-7D50k3A0WUScTnM2DKBZhA__",
+                "content" : "I love seeing your creations, would you like to collaborate with me for our next project. It will be fun.",
+                "like" : 122
+            }
+        ]
+    },
+    {
+        "id" : 2,
+        "author" : "Deepak Yadu",
+        "authorImg" : "https://s3-alpha-sig.figma.com/img/601d/41d4/3bb6e2c374c2023c0b957fdae4aa5d04?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bYgBU7DDUunacz~hX8~N1BWko~ho-3aX~rRB7HLwBW~jqk5jCIgOonKDtfddRxlZOoPxfMVOz3Nuj6a3H9VV0FrZ7zdxCiFnhIiLJo9hy3fpWv0wVUo6DuLVopBuralg09Z7nVMJ9w5PH6~XF9fJltMbffgPAHNPNIsqCagSKpXoWkX0Ec0aW22ENHkUxgMWYfU6b-xIYqz~EgpcuRDHtakDh8PNUGPiPgyFL7hpqwHX4k4vGqcGPfV9f2aM6ZQQxiOryaqTA~1MrzzFIEZ5qDOrQGI7obub~WmxqSsPGSfmd57ST5VhCSi00XjBx2kS4OZatUy7~c1VDjxpTQcK3g__",
+        "reposts" : 7,
+        "content" : "It took so long for this desktop version of Threads to come out, but I'm really excited to start posting tips and content directly from the computer",
+        "comments" : 59,
+        "img" : [],
+        "comment" : [
+            {
+                "id" : 1,
+                "author" : "Deepak Yadu",
+                "authorImg" : "https://s3-alpha-sig.figma.com/img/601d/41d4/3bb6e2c374c2023c0b957fdae4aa5d04?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bYgBU7DDUunacz~hX8~N1BWko~ho-3aX~rRB7HLwBW~jqk5jCIgOonKDtfddRxlZOoPxfMVOz3Nuj6a3H9VV0FrZ7zdxCiFnhIiLJo9hy3fpWv0wVUo6DuLVopBuralg09Z7nVMJ9w5PH6~XF9fJltMbffgPAHNPNIsqCagSKpXoWkX0Ec0aW22ENHkUxgMWYfU6b-xIYqz~EgpcuRDHtakDh8PNUGPiPgyFL7hpqwHX4k4vGqcGPfV9f2aM6ZQQxiOryaqTA~1MrzzFIEZ5qDOrQGI7obub~WmxqSsPGSfmd57ST5VhCSi00XjBx2kS4OZatUy7~c1VDjxpTQcK3g__",
+                "content" : "It took so long for this desktop version of Threads to come out, but I'm really excited to start posting tips and content directly from the computer",
+                "like" : 25
+            },
+            {
+                "id" : 2,
+                "author" : "Deepak Yadu",
+                "authorImg" : "https://s3-alpha-sig.figma.com/img/d9b7/77eb/54ff9c155fc7faf62041e6d41684c1a0?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gu-SbA0GefKlayL5HAJJeLn9BvMHuYE4jQXTQQfrMP65O5ZMPj0zcPg6brXahAn0SW~ihL9uHHzAzqEPmkxYgjXfvlYHPSPfUkKp3q5zFIKl6jrcRvL9kEx0fFZAw6~KtmGiGB3xymeocv63FO1emlTJctftQs-2iTAGo2V9~ogYaGc25YtUHW7MKV55cythMbUIRJGWwhixYjj1GZD3EPBLcR5i07WUrf2~odjznt2PbEbD1z1WQ95keUHyNSXghGhiemMKjMk69v8L7Cl~-rP0s-HC83YEB6JYjA3R8wVA6EMEKa~B7bYeMXPi4fq-7D50k3A0WUScTnM2DKBZhA__",
+                "content" : "I love seeing your creations, would you like to collaborate with me for our next project. It will be fun.",
+                "like" : 122
+            }
+        ]
+    },
+    {
+        "id" : 3,
+        "author" : "aura",
+        "authorImg" : "https://s3-alpha-sig.figma.com/img/1667/c55f/126c6fc5e276b01f293ed4a36262d230?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TJrXYONQFjwAwlqm7JS-Bm9hgAEEBj2azbENV56BkYe4Clac8rEh15vxnfKwYql0PJfaH3Up-s-7UG-eax2vlnU1Jmo7FmXMZDzXm2tS79NtwYbA29cwAE4POD6ZyYcTgUlmh7aEZnWr3auRwpO~rJ7H1NQuP5bhx13r-Dw7xpQs2SmG9UiWOyP2fCF2hzPCS0cyVEY7c8pgZeO~Rl2gevE~-ESKWjQGe82eJCsGH9y78eenra3oUo94ac426UiRspsu0B4oqOv6zSEzYQXrnfCp-5hL6y67P7yelnrZLc~~QJqHrhggWwZUDuKvg-kERvPwJ5eZrLSFPKUpfsIxHw__",
+        "reposts" : 7,
+        "content" : "Hold onto your seats, folks! The new iPhone is coming in hot, ready to rock our world! Imagine the stunning photos and videos I'll capture with this beauty! 📸💥 #BringItOnNewiPhone #BeyondExcited",
+        "comments" : 59,
+        "img" : [],
+        "comment" : [
+            {
+                "id" : 1,
+                "author" : "Deepak Yadu",
+                "authorImg" : "https://s3-alpha-sig.figma.com/img/601d/41d4/3bb6e2c374c2023c0b957fdae4aa5d04?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bYgBU7DDUunacz~hX8~N1BWko~ho-3aX~rRB7HLwBW~jqk5jCIgOonKDtfddRxlZOoPxfMVOz3Nuj6a3H9VV0FrZ7zdxCiFnhIiLJo9hy3fpWv0wVUo6DuLVopBuralg09Z7nVMJ9w5PH6~XF9fJltMbffgPAHNPNIsqCagSKpXoWkX0Ec0aW22ENHkUxgMWYfU6b-xIYqz~EgpcuRDHtakDh8PNUGPiPgyFL7hpqwHX4k4vGqcGPfV9f2aM6ZQQxiOryaqTA~1MrzzFIEZ5qDOrQGI7obub~WmxqSsPGSfmd57ST5VhCSi00XjBx2kS4OZatUy7~c1VDjxpTQcK3g__",
+                "content" : "It took so long for this desktop version of Threads to come out, but I'm really excited to start posting tips and content directly from the computer",
+                "like" : 25
+            },
+            {
+                "id" : 2,
+                "author" : "Deepak Yadu",
+                "authorImg" : "https://s3-alpha-sig.figma.com/img/d9b7/77eb/54ff9c155fc7faf62041e6d41684c1a0?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gu-SbA0GefKlayL5HAJJeLn9BvMHuYE4jQXTQQfrMP65O5ZMPj0zcPg6brXahAn0SW~ihL9uHHzAzqEPmkxYgjXfvlYHPSPfUkKp3q5zFIKl6jrcRvL9kEx0fFZAw6~KtmGiGB3xymeocv63FO1emlTJctftQs-2iTAGo2V9~ogYaGc25YtUHW7MKV55cythMbUIRJGWwhixYjj1GZD3EPBLcR5i07WUrf2~odjznt2PbEbD1z1WQ95keUHyNSXghGhiemMKjMk69v8L7Cl~-rP0s-HC83YEB6JYjA3R8wVA6EMEKa~B7bYeMXPi4fq-7D50k3A0WUScTnM2DKBZhA__",
+                "content" : "I love seeing your creations, would you like to collaborate with me for our next project. It will be fun.",
+                "like" : 122
+            }
+        ]
+    }
+]
