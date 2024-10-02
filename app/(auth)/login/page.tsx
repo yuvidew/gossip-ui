@@ -1,17 +1,20 @@
+"uce client"
+
 import { InputFiled } from "@/components/InputFiled";
 import Stack from "@mui/material/Stack";
 import { Key, Mail } from '@mui/icons-material';
 import Checkbox from '@mui/material/Checkbox';
 import Typography from '@mui/material/Typography';
-import Link from "next/link";
 import Button from '@mui/material/Button';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import IconButton from '@mui/material/IconButton';
 import Image from 'next/image';
+import { useRouter } from "next/navigation";
 
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
 export default function LoginHome() {
+  const router = useRouter()
   return (
     <Stack
       direction={"column"}
@@ -81,7 +84,7 @@ export default function LoginHome() {
       <Typography
         sx={{ textAlign: "center", fontSize: ".9rem", color: "#88898a" }}
       >
-        New here? Create an account. <Link href={"/sign-up"} style={{ color: "#1571c2" }} >Sign Up</Link>
+        New here? Create an account. <Typography onClick={() => router.push("/sign-up")} style={{ color: "#1571c2" }} >Sign Up</Typography>
       </Typography>
     </Stack>
   );

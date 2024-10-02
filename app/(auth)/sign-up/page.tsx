@@ -1,3 +1,5 @@
+"use client"
+
 import { InputFiled } from "@/components/InputFiled";
 import Stack from "@mui/material/Stack";
 import { Key, Mail } from '@mui/icons-material';
@@ -9,11 +11,13 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import IconButton from '@mui/material/IconButton';
 import Image from 'next/image';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import { useRouter } from "next/navigation";
 
 
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
 export default function SignUpHome() {
+    const router = useRouter()
     return (
         <Stack
             direction={"column"}
@@ -90,7 +94,7 @@ export default function SignUpHome() {
             <Typography
                 sx={{ textAlign: "center", fontSize: ".9rem", color: "#88898a" }}
             >
-                Already have an account? <Link href={"/login"} style={{color : "#1571c2"}} >Login</Link> 
+                Already have an account? <Typography variant="body1" onClick = {() => router.push("/login")} style={{color : "#1571c2"}} >Login</Typography> 
             </Typography>
         </Stack>
     );
