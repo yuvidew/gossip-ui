@@ -3,11 +3,12 @@
 import React from 'react'
 import Stack from '@mui/material/Stack'
 import Avatar from '@mui/material/Avatar'
-import { Badge, Button, Typography  } from '@mui/material'
+import Badge from '@mui/material/Badge'
+import Button from '@mui/material/Button'
+import Typography from '@mui/material/Typography'
 import styled from '@emotion/styled';
-import Image from 'next/image'
 
-const SmallAvatar = styled(Avatar)(({ theme }) => ({
+const SmallAvatar = styled(Avatar)(() => ({
     width: 22,
     height: 22,
 }));

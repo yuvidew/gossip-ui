@@ -1,7 +1,10 @@
 import React from 'react'
 import Box from '@mui/material/Box'
 import Card from '@mui/material/Card'
-import { Avatar, IconButton, Input, Stack, TextField } from '@mui/material'
+import Avatar from '@mui/material/Avatar'
+import IconButton  from '@mui/material/IconButton'
+import Stack from '@mui/material/Stack'
+import TextField  from '@mui/material/TextField'
 import Image from 'next/image'
 
 export const PostInputFiled = () => {

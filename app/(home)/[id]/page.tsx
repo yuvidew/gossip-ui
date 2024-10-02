@@ -1,6 +1,13 @@
 "use client"
 
-import { Avatar, Box, Button, Card, Grid, Stack, TextField, Typography } from "@mui/material";
+import Box  from "@mui/material/Box";
+import Avatar from "@mui/material/Avatar";
+import Card from "@mui/material/Card";
+import Button from "@mui/material/Button";
+import Grid from "@mui/material/Grid";
+import Stack from "@mui/material/Stack";
+import TextField from "@mui/material/TextField";
+import Typography from "@mui/material/Typography";
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import data from "../data.json"
 import Image from "next/image";
@@ -24,7 +31,8 @@ export default function PostPage({ params: { id } }: props) {
                 sx={{
                     padding: "16px",
                     marginTop: "16px",
-                    borderRadius: "16px"
+                    borderRadius: "16px",
+                    paddingBottom : "20px"
                 }}
             >
                 <Stack

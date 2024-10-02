@@ -3,7 +3,10 @@
 import React from 'react'
 import Box from '@mui/material/Box'
 import Card from '@mui/material/Card'
-import { Avatar, Grid, Input, Stack, Typography } from '@mui/material'
+import Avatar from '@mui/material/Avatar'
+import Grid from '@mui/material/Grid'
+import Stack  from '@mui/material/Stack'
+import Typography  from '@mui/material/Typography'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 
