@@ -66,7 +66,7 @@ export default function SignUpHome() {
                         width: "217px"
                     }}
                 >
-                    LOG IN
+                    SIGN UP
                 </Button>
                 <Typography variant='h1' component={"h1"}
                     sx={{ fontSize: "1rem", fontWeight: "bold", color: "#88898a" }}
