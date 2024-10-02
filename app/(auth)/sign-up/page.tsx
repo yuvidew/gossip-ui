@@ -94,7 +94,7 @@ export default function SignUpHome() {
             <Typography
                 sx={{ textAlign: "center", fontSize: ".9rem", color: "#88898a" }}
             >
-                Already have an account? <Typography variant="body1" onClick = {() => router.push("/login")} style={{color : "#1571c2"}} >Login</Typography> 
+                Already have an account? <Typography variant="button" sx={{cursor : "pointer"}} onClick = {() => router.push("/login")} style={{color : "#1571c2"}} >Login</Typography> 
             </Typography>
         </Stack>
     );
