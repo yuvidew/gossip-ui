@@ -4,11 +4,11 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Image from 'next/image';
 import { NavigationLink } from '@/app/(home)/_components/NavigationLink';
-import { SettingComp } from './SettingComp';
+import { SettingComp } from '../../app/(home)/_components/SettingComp';
 
 export const NavBar = () => {
     return (
-        <Box 
+        <Box
             sx={{
                 flexGrow: 1,
                 backgroundColor: "#fff",
@@ -22,21 +22,21 @@ export const NavBar = () => {
                     color: "black",
                 }}
             >
-                <Toolbar sx={{ width : '85%' , margin : "auto" }} >
-                    <Box sx={{ width: "25%"}}>
+                <Toolbar sx={{ width: '85%', margin: "auto" }} >
+                    <Box sx={{ width: "25%" }}>
                         <Image
                             src="./logo.svg"
                             alt="logo"
                             width={65}
-                            height={65} 
+                            height={65}
                             unoptimized
                         />
                     </Box>
                     <Box sx={{ width: "60%" }}>
-                        <NavigationLink/>
+                        <NavigationLink />
                     </Box>
                     <Box sx={{ width: "25%" }}>
-                        <SettingComp/>
+                        <SettingComp />
                     </Box>
                 </Toolbar>
             </AppBar>

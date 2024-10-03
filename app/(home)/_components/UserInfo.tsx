@@ -19,7 +19,7 @@ export const UserInfo = () => {
         <Stack direction={"column"} gap={"16px"} alignItems={"start"} width={"100%"}>
             <Badge
                 overlap="circular"
-                anchorOrigin={{ vertical: 'bottom', horizontal: 'left' , }}
+                anchorOrigin={{ vertical: 'bottom', horizontal: 'left', }}
                 badgeContent={
                     <SmallAvatar alt="verified" src="./nav-icon/verified.svg" />
                 }
@@ -31,22 +31,19 @@ export const UserInfo = () => {
                 />
             </Badge>
 
-            <Typography variant='h1' sx={{
-                fontSize : "20px",
-                fontWeight : 700
-            }} >
+            <Typography variant='h1'>
                 Deepak Yadu
             </Typography>
 
             <Typography variant='body1'  >
-                e2ddea5ed36f <Button sx={{borderRadius : "48px" , textTransform : "lowercase"}} >threads.net</Button>
+                e2ddea5ed36f <Button sx={{ borderRadius: "48px", textTransform: "lowercase" }} >threads.net</Button>
             </Typography>
 
-            <Typography variant='body1' sx={{fontSize : "15px"}} >
+            <Typography variant='body1' sx={{ fontSize: "15px" }} >
                 Senior Frontend Developer | Exploring the art of programming
                 deepak@newklio.com
             </Typography>
-            <Typography variant='body2' sx={{fontSize : "14px" , display : "flex" , alignItems : "center" , gap : "3px" , textTransform : "uppercase" , color : "#00000099"}}>
+            <Typography variant='body2' sx={{ fontSize: "14px", display: "flex", alignItems: "center", gap: "3px", textTransform: "uppercase", color: "#00000099" }}>
                 2957 followers - 456 following
             </Typography>
         </Stack>

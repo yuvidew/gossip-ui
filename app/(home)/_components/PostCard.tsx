@@ -5,10 +5,11 @@ import Box from '@mui/material/Box'
 import Card from '@mui/material/Card'
 import Avatar from '@mui/material/Avatar'
 import Grid from '@mui/material/Grid'
-import Stack  from '@mui/material/Stack'
-import Typography  from '@mui/material/Typography'
+import Stack from '@mui/material/Stack'
+import Typography from '@mui/material/Typography'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
+import { Grid2 } from '@mui/material'
 
 interface props {
     id: number,
@@ -34,41 +35,41 @@ export const PostCard = ({
         <Card
             sx={{
                 borderRadius: "16px",
-                padding: "16px 18px 16px 18px"
+                padding: "16px 18px 16px 18px",
+                cursor: "pointer",
+                '&:hover': {
+                    backgroundColor: "#f5f5f5"
+                }
             }}
 
-            onClick = {() => router.push(`/${id}`)}
+            onClick={() => router.push(`/${id}`)}
         >
             <Stack
                 direction={"row"}
                 gap="16px"
                 alignItems={"start"}
             >
-
-                <Box 
-                    
-                
-                >
-                    <Avatar
-                        alt="user"
-                        src={authorImg}
-                        sx={{ width: "36px", height: "36px" }}
-                    /> 
-                </Box>
+                <Avatar
+                    alt="user"
+                    src={authorImg}
+                    sx={{ width: "36px", height: "36px" }}
+                />
                 <Box width={"100%"}>
+                    {/*  author details */}
                     <Stack direction={"row"} alignItems={"start"} justifyContent={"space-between"}  >
                         <Typography variant='h4' sx={{ fontSize: "16px", marginBottom: "6px" }} >
                             {author}
                         </Typography>
-                        <Box 
+                        {/* posted time and options */}
+                        <Box
                             sx={{
-                                display : "flex",
-                                alignItems : "center",
-                                justifyContent : "end",
-                                gap : "10px"
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "end",
+                                gap: "10px"
                             }}
                         >
-                            <Typography variant='body2' sx={{color : "#00000061", fontSize : "12px"}}>
+                            <Typography variant='body2' sx={{ color: "#00000061", fontSize: "12px" }}>
                                 2 min
                             </Typography>
                             <Image
@@ -78,13 +79,15 @@ export const PostCard = ({
                                 height={24}
                             />
                         </Box>
+                        {/* end of posted time and options */}
                     </Stack>
+                    {/*  end of author details */}
 
                     <Typography variant='body1' sx={{ fontSize: "13px", }} marginTop={"16px"}>
                         {content}
                     </Typography>
                     {img.length !== 0 &&
-                        <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} marginY={"16px"}>
+                        <Grid2 container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} marginY={"16px"}>
                             {img.map((ele, index) => (
                                 <Grid item xs={6} key={index} padding={"0"}>
                                     <Image
@@ -92,34 +95,34 @@ export const PostCard = ({
                                         alt={`img-${index}`}
                                         height={230}
                                         width={340}
-                                        style={{ objectFit: "cover", height: "230px" , borderRadius : "8px" }} 
+                                        style={{ objectFit: "cover", height: "230px", borderRadius: "8px" }}
                                     />
 
                                 </Grid>
                             ))}
-                        </Grid>
+                        </Grid2>
                     }
 
                     <Stack direction={"row"} alignItems={"start"} justifyContent={"start"} gap={"12px"} marginTop={"16px"}>
-                        <Image 
+                        <Image
                             src={"./nav-icon/hard.svg"}
                             alt={"hard"}
                             width={20}
                             height={20}
                         />
-                        <Image 
+                        <Image
                             src={"./nav-icon/commite.svg"}
                             alt={"hard"}
                             width={20}
                             height={20}
                         />
-                        <Image 
+                        <Image
                             src={"./nav-icon/repost.svg"}
                             alt={"hard"}
                             width={20}
                             height={20}
                         />
-                        <Image 
+                        <Image
                             src={"./nav-icon/send.svg"}
                             alt={"hard"}
                             width={20}
