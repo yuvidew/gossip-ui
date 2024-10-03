@@ -29,15 +29,14 @@ export const PostInputFiled = () => {
                 <Box width={"100%"}>
                     <TextField
                         size="small"
-                        variant="standard" 
                         sx={{
-                            "& .MuiInput-underline:before": {
+                            "&.MuiInput-underline:before": {
                                 borderBottom: "none", 
                             },
-                            "& .MuiInput-underline:hover:before": {
+                            "&.MuiInput-underline:hover:before": {
                                 borderBottom: "none",
                             },
-                            "& .MuiInput-underline:after": {
+                            "&.MuiInput-underline:after": {
                                 borderBottom: "none", 
                             }
                         }}

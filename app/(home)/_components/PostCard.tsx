@@ -34,7 +34,11 @@ export const PostCard = ({
         <Card
             sx={{
                 borderRadius: "16px",
-                padding: "16px 18px 16px 18px"
+                padding: "16px 18px 16px 18px",
+                cursor : "pointer",
+                ":hover" : {
+                    backgroundColor : "#f1faee"
+                }
             }}
 
             onClick = {() => router.push(`/${id}`)}
@@ -45,10 +49,7 @@ export const PostCard = ({
                 alignItems={"start"}
             >
 
-                <Box 
-                    
-                
-                >
+                <Box>
                     <Avatar
                         alt="user"
                         src={authorImg}
@@ -57,7 +58,7 @@ export const PostCard = ({
                 </Box>
                 <Box width={"100%"}>
                     <Stack direction={"row"} alignItems={"start"} justifyContent={"space-between"}  >
-                        <Typography variant='h4' sx={{ fontSize: "16px", marginBottom: "6px" }} >
+                        <Typography variant='h4' >
                             {author}
                         </Typography>
                         <Box 
@@ -68,7 +69,7 @@ export const PostCard = ({
                                 gap : "10px"
                             }}
                         >
-                            <Typography variant='body2' sx={{color : "#00000061", fontSize : "12px"}}>
+                            <Typography variant='p4'>
                                 2 min
                             </Typography>
                             <Image
@@ -80,7 +81,7 @@ export const PostCard = ({
                         </Box>
                     </Stack>
 
-                    <Typography variant='body1' sx={{ fontSize: "13px", }} marginTop={"16px"}>
+                    <Typography variant='p1' >
                         {content}
                     </Typography>
                     {img.length !== 0 &&
@@ -100,7 +101,7 @@ export const PostCard = ({
                         </Grid>
                     }
 
-                    <Stack direction={"row"} alignItems={"start"} justifyContent={"start"} gap={"12px"} marginTop={"16px"}>
+                    <Stack direction={"row"} alignItems={"start"} justifyContent={"start"} gap={"12px"} marginY={"16px"}>
                         <Image 
                             src={"./nav-icon/hard.svg"}
                             alt={"hard"}
@@ -126,7 +127,7 @@ export const PostCard = ({
                             height={20}
                         />
                     </Stack>
-                    <Typography variant='body2' marginTop={"16px"} color='#00000061'>
+                    <Typography variant='p3'>
                         {reposts} reposts - {comments} comments
                     </Typography>
                 </Box>

@@ -46,7 +46,7 @@ export const UserInfo = () => {
                 Senior Frontend Developer | Exploring the art of programming
                 deepak@newklio.com
             </Typography>
-            <Typography variant='body2' sx={{fontSize : "14px" , display : "flex" , alignItems : "center" , gap : "3px" , textTransform : "uppercase" , color : "#00000099"}}>
+            <Typography variant='d3'>
                 2957 followers - 456 following
             </Typography>
         </Stack>

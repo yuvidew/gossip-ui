@@ -32,7 +32,7 @@ export const CommentCard = ({
                 padding: "16px 18px 16px 18px",
                 boxShadow : "none",
                 borderBottom : "1.5px solid #E0E0E0",
-                
+                width : "100%"
             }}
 
             onClick={() => router.push(`/${id}`)}
@@ -43,10 +43,7 @@ export const CommentCard = ({
                 alignItems={"start"}
             >
 
-                <Box
-
-
-                >
+                <Box >
                     <Avatar
                         alt="user"
                         src={authorImg}
@@ -54,8 +51,8 @@ export const CommentCard = ({
                     />
                 </Box>
                 <Box width={"100%"}>
-                    <Stack direction={"row"} alignItems={"start"} justifyContent={"space-between"}  >
-                        <Typography variant='h4' sx={{ fontSize: "16px", marginBottom: "6px" }} >
+                    <Stack direction={"row"} alignItems={"start"} justifyContent={"space-between"} >
+                        <Typography variant='h4'  >
                             {author}
                         </Typography>
                         <Box
@@ -78,11 +75,11 @@ export const CommentCard = ({
                         </Box>
                     </Stack>
 
-                    <Typography variant='body1' sx={{ fontSize: "13px", }} marginTop={"16px"}>
+                    <Typography variant='p1'>
                         {content}
                     </Typography>
                     <Stack direction={"row"} alignItems={"center"} justifyContent={"start"} gap={"12px"} marginTop={"16px"}>
-                        <Typography variant='h4' fontSize={"13px"} >{like}</Typography>
+                        <Typography variant='h5'  >{like}</Typography>
                         <Image
                             src={"./color-hard.svg"}
                             alt={"hard"}

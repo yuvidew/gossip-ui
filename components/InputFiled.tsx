@@ -38,7 +38,7 @@ export const InputFiled = ({
                         ),
                     },
                 }}
-                variant="outlined"
+                // variant="outlined"
                 placeholder={placeholder}
             />
         </Stack>

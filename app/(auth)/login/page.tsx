@@ -55,6 +55,7 @@ export default function LoginHome() {
             paddingX: "1.5rem",
             width: "217px"
           }}
+          color="secondary"
         >
           LOG IN
         </Button>

@@ -12,13 +12,13 @@ export const Trending = () => {
             </Typography>
             {trends.map((ele , index) => (
                 <Box key={index} >
-                    <Typography variant='h4' fontSize={"15px"}  color='#00000099' textTransform={"uppercase"} marginBottom={"10px"}>
+                    <Typography variant='d2'>
                         {ele.category}
                     </Typography>
-                    <Typography variant='h4' fontSize={"15px"}  color='#000000' fontWeight={700}  textTransform={"capitalize"} marginBottom={"10px"}>
+                    <Typography variant='d1'>
                         {ele.title}
                     </Typography>
-                    <Typography variant='h4' fontSize={"15px"}  color='#00000099' textTransform={"uppercase"} marginBottom={"10px"}>
+                    <Typography variant='d2'>
                         {ele.threads}
                     </Typography>
                 </Box>

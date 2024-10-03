@@ -24,7 +24,7 @@ export default function PostPage({ params: { id } }: props) {
 
     return (
         <Box>
-            <Typography  variant="h4" fontSize={"20px"} fontWeight={600} color="#000000DE" display={"flex"} alignItems={"center"} gap={"8px"} >
+            <Typography  variant="h2"  >
                 <ArrowBackIcon onClick = {() => router.push("/")} sx={{cursor : "pointer"}} /> Gossip Topic
             </Typography>
             <Card
@@ -32,7 +32,7 @@ export default function PostPage({ params: { id } }: props) {
                     padding: "16px",
                     marginTop: "16px",
                     borderRadius: "16px",
-                    paddingBottom : "20px"
+                    marginBottom : "2rem"
                 }}
             >
                 <Stack
@@ -50,7 +50,7 @@ export default function PostPage({ params: { id } }: props) {
                     </Box>
                     <Box width={"100%"}>
                         <Stack direction={"row"} alignItems={"start"} justifyContent={"space-between"}  >
-                            <Typography variant='h4' sx={{ fontSize: "16px", marginBottom: "6px" }} >
+                            <Typography variant='h4' >
                                 {post.author}
                             </Typography>
                             <Box
@@ -61,7 +61,7 @@ export default function PostPage({ params: { id } }: props) {
                                     gap: "10px"
                                 }}
                             >
-                                <Typography variant='body2' sx={{ color: "#00000061", fontSize: "12px" }}>
+                                <Typography variant='p4'>
                                     2 min
                                 </Typography>
                                 <Image
@@ -73,7 +73,7 @@ export default function PostPage({ params: { id } }: props) {
                             </Box>
                         </Stack>
 
-                        <Typography variant='body1' sx={{ fontSize: "13px", }} marginTop={"16px"}>
+                        <Typography variant='p1'>
                             {post.content}
                         </Typography>
                         {post.img.length !== 0 &&
